@@ -1,4 +1,4 @@
-# ABWebView
+# ABScheduledLocationManager
 A utility control to fetch locations with a specified interval of time even in the background.
 
 <!--## Demo-->
