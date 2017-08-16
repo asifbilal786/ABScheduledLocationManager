@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294257691F431FB40045A9DF /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294257681F431FB40045A9DF /* ExampleTableViewController.swift */; };
 		299AEF9F1F3DF1D1004D5E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AEF9E1F3DF1D1004D5E82 /* AppDelegate.swift */; };
-		299AEFA11F3DF1D1004D5E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AEFA01F3DF1D1004D5E82 /* ViewController.swift */; };
 		299AEFA41F3DF1D1004D5E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299AEFA21F3DF1D1004D5E82 /* Main.storyboard */; };
 		299AEFA61F3DF1D1004D5E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299AEFA51F3DF1D1004D5E82 /* Assets.xcassets */; };
 		299AEFA91F3DF1D1004D5E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299AEFA71F3DF1D1004D5E82 /* LaunchScreen.storyboard */; };
+		299AEFB21F3DF217004D5E82 /* ScheduledLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AEFB11F3DF217004D5E82 /* ScheduledLocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294257681F431FB40045A9DF /* ExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
 		299AEF9B1F3DF1D1004D5E82 /* ABScheduledLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABScheduledLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299AEF9E1F3DF1D1004D5E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		299AEFA01F3DF1D1004D5E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		299AEFA31F3DF1D1004D5E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		299AEFA51F3DF1D1004D5E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299AEFA81F3DF1D1004D5E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		299AEFAA1F3DF1D1004D5E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299AEFB11F3DF217004D5E82 /* ScheduledLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduledLocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		299AEF9D1F3DF1D1004D5E82 /* ABScheduledLocationManager */ = {
 			isa = PBXGroup;
 			children = (
+				299AEFB01F3DF1DE004D5E82 /* Source */,
 				299AEF9E1F3DF1D1004D5E82 /* AppDelegate.swift */,
-				299AEFA01F3DF1D1004D5E82 /* ViewController.swift */,
+				294257681F431FB40045A9DF /* ExampleTableViewController.swift */,
 				299AEFA21F3DF1D1004D5E82 /* Main.storyboard */,
 				299AEFA51F3DF1D1004D5E82 /* Assets.xcassets */,
 				299AEFA71F3DF1D1004D5E82 /* LaunchScreen.storyboard */,
 				299AEFAA1F3DF1D1004D5E82 /* Info.plist */,
 			);
 			path = ABScheduledLocationManager;
+			sourceTree = "<group>";
+		};
+		299AEFB01F3DF1DE004D5E82 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				299AEFB11F3DF217004D5E82 /* ScheduledLocationManager.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +108,11 @@
 					299AEF9A1F3DF1D1004D5E82 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,7 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299AEFA11F3DF1D1004D5E82 /* ViewController.swift in Sources */,
+				294257691F431FB40045A9DF /* ExampleTableViewController.swift in Sources */,
+				299AEFB21F3DF217004D5E82 /* ScheduledLocationManager.swift in Sources */,
 				299AEF9F1F3DF1D1004D5E82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +316,7 @@
 				299AEFAF1F3DF1D1004D5E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
