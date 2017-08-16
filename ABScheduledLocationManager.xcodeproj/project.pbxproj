@@ -13,6 +13,9 @@
 		299AEFA61F3DF1D1004D5E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299AEFA51F3DF1D1004D5E82 /* Assets.xcassets */; };
 		299AEFA91F3DF1D1004D5E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299AEFA71F3DF1D1004D5E82 /* LaunchScreen.storyboard */; };
 		299AEFB21F3DF217004D5E82 /* ScheduledLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AEFB11F3DF217004D5E82 /* ScheduledLocationManager.swift */; };
+		29A0E8E81F44319000A30627 /* ABScheduledLocationManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 29A0E8E51F44319000A30627 /* ABScheduledLocationManager.podspec */; };
+		29A0E8E91F44319000A30627 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 29A0E8E61F44319000A30627 /* LICENSE */; };
+		29A0E8EA1F44319000A30627 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 29A0E8E71F44319000A30627 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		299AEFA81F3DF1D1004D5E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		299AEFAA1F3DF1D1004D5E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299AEFB11F3DF217004D5E82 /* ScheduledLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduledLocationManager.swift; sourceTree = "<group>"; };
+		29A0E8E51F44319000A30627 /* ABScheduledLocationManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABScheduledLocationManager.podspec; sourceTree = "<group>"; };
+		29A0E8E61F44319000A30627 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29A0E8E71F44319000A30627 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 		299AEF921F3DF1D1004D5E82 = {
 			isa = PBXGroup;
 			children = (
+				29A0E8E51F44319000A30627 /* ABScheduledLocationManager.podspec */,
+				29A0E8E61F44319000A30627 /* LICENSE */,
+				29A0E8E71F44319000A30627 /* README.md */,
 				299AEF9D1F3DF1D1004D5E82 /* ABScheduledLocationManager */,
 				299AEF9C1F3DF1D1004D5E82 /* Products */,
 			);
@@ -141,7 +150,9 @@
 			files = (
 				299AEFA91F3DF1D1004D5E82 /* LaunchScreen.storyboard in Resources */,
 				299AEFA61F3DF1D1004D5E82 /* Assets.xcassets in Resources */,
+				29A0E8E81F44319000A30627 /* ABScheduledLocationManager.podspec in Resources */,
 				299AEFA41F3DF1D1004D5E82 /* Main.storyboard in Resources */,
+				29A0E8E91F44319000A30627 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +165,7 @@
 			files = (
 				294257691F431FB40045A9DF /* ExampleTableViewController.swift in Sources */,
 				299AEFB21F3DF217004D5E82 /* ScheduledLocationManager.swift in Sources */,
+				29A0E8EA1F44319000A30627 /* README.md in Sources */,
 				299AEF9F1F3DF1D1004D5E82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
